@@ -11,12 +11,12 @@ By default the program will detect korean language (hangul) and translate it int
 <br> You can also adjust and costumize it into your desired language.
 
 <p align="justify">This program consist of 2 main function: text detection & text translation. 
-<br> To detect the text from image we use EasyOCR & OpenCV. 
-  After detecting the text, first you need to change it from list to string datatype which you can see it on our sub function listToString(). After it you can finally translate the text. 
+<br> To detect the text from image i used EasyOCR & OpenCV. 
+  After detecting the text, first you need to change it from list to string datatype (deep_translator can't process list) which you can see it on our sub function listToString(). After it you can finally translate the text. 
   For text translation i used deep translator, a free and unlimited tool to translate between languages (no need to build a RNN architecture again). 
   From there i import 2 translator which are GoogleTranslator and MyMemory. 
   You may change the translator type and also see the documentation <a href="https://pypi.org/project/deep-translator">here</a>. 
-  I'm using tkinter to make the GUIthat can you freely edit the frame, button, and label based to your taste. I also already included the jupyter notebook file to show the whole processes.</p>
+  I'm using tkinter to make the GUI that can you freely edit the frames, buttons, and labels according to your taste. I also already included the jupyter notebook file to show the whole processes.</p>
 
 
 # Library Used:
